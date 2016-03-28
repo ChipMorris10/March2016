@@ -1,0 +1,109 @@
+body {
+  background-color: #ffffff;
+  height: 100%;
+  /*background-image: url(images/background_image.jpg);*/
+  background-image: url(images/background-737622_960_720.jpg);
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.intro {
+  text-align: center;
+  color: white;
+  font-variant: small-caps;
+  font-size: 50px;
+  color: #ABDBE5;
+}
+
+.intro_sub {
+  text-align: center;
+  color: white;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #ABDBE5;
+  margin-top: -20px;
+}
+
+hr {
+  width: 500px;
+  margin-top: 1px;
+}
+
+.warning {
+  text-align: center;
+  color: #E51F0F;
+  font-weight: bold;
+  margin-top: -35px;
+}
+
+.eye_logo {
+  height: 42px;
+  width: 42px;
+  color: #ffffff;
+  padding-left: 480px;
+  margin-top: 10px;
+}
+
+.projects {
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  padding-left: 85px;
+  margin-top: 10px;
+}
+
+.work_history {
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  padding-left: 90px;
+  margin-top: 10px;
+}
+
+.education {
+  height: 40px;
+  width: 40px;
+  color: #ffffff;
+  padding-left: 95px;
+  margin-top: 10px;
+}
+
+.container {
+  /*border: 1px solid black;*/
+  margin-right: 1050px;
+  text-align: center;
+  color: #ABDBE5;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.skill_set {
+  text-align: left;
+  font-variant: small-caps;
+  font-size: 16px;
+  position: relative;
+}
+
+.my_progress {
+  position: relative;
+  width: 20%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+/*.my_progress css {
+  position: relative;
+  width: 10%;
+  height: 10px;
+  background-color: #ddd;
+}*/
+
+
