@@ -1,15 +1,11 @@
 body {
-  background-color: #ffffff;
   height: 100%;
-  /*background-image: url(images/background_image.jpg);*/
-  background-image: url(images/background-737622_960_720.jpg);
+  background-image: url('images/background-737622_960_720.jpg');
   background-size: cover;
-  padding-top: 60px;
 }
 
 .intro {
   text-align: center;
-  color: white;
   font-variant: small-caps;
   font-size: 50px;
   color: #ABDBE5;
@@ -17,7 +13,6 @@ body {
 
 .intro_sub {
   text-align: center;
-  color: white;
   font-variant: small-caps;
   font-size: 30px;
   color: #ABDBE5;
@@ -68,14 +63,26 @@ hr {
   margin-top: 10px;
 }
 
+.arrows {
+  height: 15px;
+  width: 15px;
+  margin-left: 50px;
+}
+
+aside {
+  margin-left: 60px;
+}
+
 .container {
   /*border: 1px solid black;*/
   margin-right: 1050px;
-  text-align: center;
+  /*text-align: center;*/
   color: #ABDBE5;
   font-variant: small-caps;
   font-weight: bold;
   font-size: 25px;
+  position: relative;
+  top: -365px;
 }
 
 .skill_set {
@@ -85,25 +92,172 @@ hr {
   position: relative;
 }
 
-.my_progress {
+.my_progress_html {
   position: relative;
-  width: 20%;
+  width: 40%;
   height: 10px;
   background-color: #ddd;
 }
 
-.my_bar {
+.my_bar_html {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_css {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_css {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_SQL {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_SQL {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_JScript {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_JScript {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Unix {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Unix {
   position: absolute;
   width: 70%;
   height: 100%;
   background-color: #4CAF50;
 }
 
-/*.my_progress css {
+.my_progress_Git {
   position: relative;
-  width: 10%;
+  width: 40%;
   height: 10px;
   background-color: #ddd;
-}*/
+}
+
+.my_bar_Git {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Mongo {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Mongo {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Angular {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Angular {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Bootstrap {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Bootstrap {
+  position: absolute;
+  width: 70%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Crud {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Crud {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Pair {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Pair {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Responsive {
+  position: relative;
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Responsive {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background-color: #4CAF50;
+}
 
 
