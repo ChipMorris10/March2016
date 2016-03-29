@@ -5,6 +5,7 @@ body {
   background-image: url('images/background-737622_960_720.jpg');
   background-size: cover;
   font-family: 'Poppins', sans-serif;
+
 }
 
 hr {
@@ -19,6 +20,7 @@ hr {
   font-variant: small-caps;
   font-size: 50px;
   color: #ABDBE5;
+  letter-spacing: 2px;
 }
 
 .intro_sub {
@@ -27,6 +29,7 @@ hr {
   font-size: 27px;
   color: #ABDBE5;
   margin-top: -34px;
+  letter-spacing: 2px;
 }
 
 .warning {
@@ -65,23 +68,40 @@ hr {
 }
 
 
+/* Headline */
+#link {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
 /* About Me */
-#about_me {
+.about_me {
+  margin-top: -8px;
   font-weight: bold;
+  color: white;
+  /*font-weight: bold;
   font-size: 40px;
   text-align: center;
   color: #ABDBE5;
+  border: 2px solid black;
+  height: 400px;
+  margin: 5px;*/
+}
+
+.bio {
+  text-align: center;
+  color: #ABDBE5;
+  width: 831px;
+  margin-left: 293px;
 }
 
 
 
-
-
 /* Side Bar */
-.arrows {
-  height: 15px;
-  width: 15px;
-  margin-left: 55px;
+.ANSI {
+  margin-left: 64px;
+  margin-top: 1px;
+  /*position: absolute;*/
 }
 
 aside {
@@ -90,13 +110,13 @@ aside {
 
 .side_bar {
   margin-right: 1050px;
-  /*text-align: center;*/
   color: #ABDBE5;
   font-variant: small-caps;
   font-weight: bold;
   font-size: 25px;
   position: relative;
   top: -335px;
+  letter-spacing: 1px;
 }
 
 .skill_set {
