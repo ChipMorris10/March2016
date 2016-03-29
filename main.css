@@ -1,9 +1,19 @@
+/* Global */
+
 body {
   height: 100%;
   background-image: url('images/background-737622_960_720.jpg');
   background-size: cover;
+  font-family: 'Poppins', sans-serif;
 }
 
+hr {
+  width: 500px;
+  margin-top: 1px;
+}
+
+
+/* Introduction - Main Focus */
 .intro {
   text-align: center;
   font-variant: small-caps;
@@ -14,14 +24,9 @@ body {
 .intro_sub {
   text-align: center;
   font-variant: small-caps;
-  font-size: 30px;
+  font-size: 27px;
   color: #ABDBE5;
-  margin-top: -20px;
-}
-
-hr {
-  width: 500px;
-  margin-top: 1px;
+  margin-top: -34px;
 }
 
 .warning {
@@ -31,10 +36,9 @@ hr {
   margin-top: -35px;
 }
 
-.eye_logo {
+.about_me {
   height: 42px;
   width: 42px;
-  color: #ffffff;
   padding-left: 480px;
   margin-top: 10px;
 }
@@ -42,39 +46,49 @@ hr {
 .projects {
   height: 40px;
   width: 40px;
-  color: #ffffff;
-  padding-left: 85px;
+  padding-left: 90px;
   margin-top: 10px;
 }
 
 .work_history {
   height: 40px;
   width: 40px;
-  color: #ffffff;
-  padding-left: 90px;
+  padding-left: 96px;
   margin-top: 10px;
 }
 
 .education {
   height: 40px;
   width: 40px;
-  color: #ffffff;
-  padding-left: 95px;
+  padding-left: 111px;
   margin-top: 10px;
 }
 
+
+/* About Me */
+#about_me {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  color: #ABDBE5;
+}
+
+
+
+
+
+/* Side Bar */
 .arrows {
   height: 15px;
   width: 15px;
-  margin-left: 50px;
+  margin-left: 55px;
 }
 
 aside {
-  margin-left: 60px;
+  margin-left: 73px;
 }
 
-.container {
-  /*border: 1px solid black;*/
+.side_bar {
   margin-right: 1050px;
   /*text-align: center;*/
   color: #ABDBE5;
@@ -82,7 +96,7 @@ aside {
   font-weight: bold;
   font-size: 25px;
   position: relative;
-  top: -365px;
+  top: -335px;
 }
 
 .skill_set {
