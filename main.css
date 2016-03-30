@@ -1,3 +1,9 @@
+/* Website: March 2016
+  Author: Chip Morris
+  Author Site: Link to my portfolio
+  Version: 1.0.0
+*/
+
 /* Global */
 
 body {
@@ -21,6 +27,7 @@ hr {
   font-size: 50px;
   color: #ABDBE5;
   letter-spacing: 2px;
+  border: 2px solid blue;
 }
 
 .intro_sub {
@@ -30,6 +37,7 @@ hr {
   color: #ABDBE5;
   margin-top: -34px;
   letter-spacing: 2px;
+  border: 2px solid red;
 }
 
 .warning {
@@ -39,28 +47,28 @@ hr {
   margin-top: -35px;
 }
 
-.about_me {
+.about_me_logo {
   height: 42px;
   width: 42px;
   padding-left: 480px;
   margin-top: 10px;
 }
 
-.projects {
+.projects_logo {
   height: 40px;
   width: 40px;
   padding-left: 90px;
   margin-top: 10px;
 }
 
-.work_history {
+.work_history_logo {
   height: 40px;
   width: 40px;
   padding-left: 96px;
   margin-top: 10px;
 }
 
-.education {
+.education_logo {
   height: 40px;
   width: 40px;
   padding-left: 111px;
@@ -95,17 +103,25 @@ hr {
   margin-left: 293px;
 }
 
-
+/*.projects {
+  border: 1px solid blue;
+  text-align: center;
+  width: 831px;
+  margin-left: 293px;
+}*/
 
 /* Side Bar */
 .ANSI {
   margin-left: 64px;
   margin-top: 1px;
-  /*position: absolute;*/
+  position: relative;
+  top: -320px;
 }
 
 aside {
   margin-left: 73px;
+  position: relative;
+  top: -330px;
 }
 
 .side_bar {
@@ -115,7 +131,7 @@ aside {
   font-weight: bold;
   font-size: 25px;
   position: relative;
-  top: -335px;
+  top: -340px;
   letter-spacing: 1px;
 }
 
@@ -124,6 +140,7 @@ aside {
   font-variant: small-caps;
   font-size: 16px;
   position: relative;
+  top: -350px;
 }
 
 .my_progress_html {
