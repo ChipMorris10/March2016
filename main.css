@@ -29,7 +29,6 @@ hr {
   font-size: 50px;
   color: #ABDBE5;
   letter-spacing: 2px;
-  border: 2px solid blue;
 }
 
 .intro_sub {
@@ -39,7 +38,6 @@ hr {
   color: #ABDBE5;
   margin-top: -34px;
   letter-spacing: 2px;
-  border: 2px solid red;
 }
 
 .warning {
