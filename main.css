@@ -232,8 +232,9 @@ aside {
   margin: 11px;
 }
 
-.flex-item h4 {
+.flex-item h4  {
   text-align: center;
+  margin-left: -26px;
 }
 
 .flex-item.item1,
@@ -294,7 +295,7 @@ aside {
 .bio img {
   border-radius: 10px;
   height: 140px;
-  margin-left: 14px;
+  margin-left: 12px;
 }
 
 
