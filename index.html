@@ -9,19 +9,14 @@
 
 <body>
 
-<!-- Introduction - Main Focus -->
-<div>
-  <header>
-    <section>
-      <h1 class="intro">Chip Morris</h1>      <h3 class="intro_sub">Front-End Developer</h3
-      >
-      <h3 class="intro_sub">&amp;</h3>
-      <h3 class="intro_sub">Evangelist</h3>
-    </section>
-  </header>
-</div>
-
-<br>
+<header>
+  <section class='gen_info'>
+    <h1 class="intro">Chip Morris</h1>
+    <h3 class="intro_sub">Front-End Developer</h3
+    >
+    <h3 class="intro_sub">&amp;</h3>
+    <h3 class="intro_sub">Evangelist</h3>
+    <br>
 <hr>
 <p class="warning">Warning: No Bootstrap was used in making this site!</p>
 
@@ -33,34 +28,15 @@
   <img class="work_history_logo" src="images/work_history.png" alt="work history" />
   <img class="education_logo" src="images/education.png" alt="education" />
 </div>
+  </section>
+</header>
 
-<!-- About Me -->
-<div id="link" class="about_me">
-  <p><a href="#bio">About Me</a></p>
-</div>
+<!-- Flexbox all -->
+<div class="flex-container">
 
-
-
-
-<div class="bio">
-  <h2>About Me</h2>
-  <p>I am a seasoned professional with experience in management, sales, and operations. I have been responsible for talking with students about the opportunities available to them in IT, working with CEO&rsquo;s, CTO&rsquo;s, and CFO&rsquo;s about ways to increase the skills of their IT department personnel, managing daily operations across multiple teams, leading large projects, opening a new office, planning monthly and yearly goals, and building relationships both inside and outside the organization.</p>
-  <p>On the fun side of things, I&rsquo;m married and have three children, I love to read, ski, hike, play guitar, ukulele, &amp; ping pong, and exercise. In a nut-shell, I am an all-around good guy who likes to work hard <em>and</em> have fun. And if you don&rsquo;t believe me on any of these things, just ask my mom!</p>
-</div>
-
-
-<!-- <div class="projects">
-  <h2>Projects</h2> -->
-
-
-
-
-
-
-
-
+<!-- Flexbox column 1 -->
 <!-- Side Bar and Skill Sets -->
-<div class="side_bar">
+<div class="flex-item item1">
 <aside>Skills</aside>
 <!-- <p class="ANSI">&sect;&sect;&sect;</p> -->
 <p class="ANSI">&rmoust;&rmoust;&rmoust;</p>
@@ -73,7 +49,7 @@
   </div>
 
   <br>
-  <li>CSS</li>
+  <li>CSS3</li>
   <div class="my_progress_css">
     <div class="my_bar_css"></div>
   </div>
@@ -141,11 +117,77 @@
 </ul>
 </div>  <!-- Close Side Bar div -->
 
+<!-- Flexbox column 2 -->
+<div class="flex-item item2">
+  <div class="bio">
+    <h2>About Me</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img />
+        <h3>
+        <p>I am a seasoned professional with experience in management, sales, and operations. I have been responsible for talking with grade school, high school, and college students about the opportunities available to them in IT. I&rsquo;ve worked with CEO&rsquo;s, CTO&rsquo;s, and CFO&rsquo;s about ways to increase the skills of their IT department personnel, and I&rsquo;ve managed daily operations across multiple teams, leading large projects, opening a new office, planning monthly and yearly goals, and built relationships both inside and outside of the organization.</p>
+      </div>
+      <div class="flex-item">
+        <p>On the fun side of things, I&rsquo;m married and have three children, I love to read, ski, hike, play guitar &amp; ukulele, ping pong, and exercise. In a nut-shell, I am an all-around good guy who likes to work hard <em>and</em> have fun. And if you don&rsquo;t believe me on any of these things, just ask my mom. She&rsquo;ll tell you!</p>
+      </div>
+    </div> <!-- end About Me flex-continer -->
+  </div>
+
+  <div class="projects">
+    <h2>Projects</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img src="" alt=""/>
+        <h4>Cabin Website</h4>
+      </div>
+
+      <div class="flex-item">
+        <img src="" alt=""/>
+        <h4>Cabin Website</h4>
+        <p>something goes here</p>
+      </div>
+
+      <div class="flex-item">
+        <img src="" alt=""/>
+        <h4>Cabin Website</h4>
+      </div>
+
+      <div class="flex-item">
+        <img src="" alt=""/>
+        <h4>Cabin Website</h4>
+      </div>
+
+      </div> <!-- end Projects flex-container -->
+  </div>
+</div> <!-- end flex item 2 -->
+
+<!-- Flexbox column 3 -->
+<div class="flex-item item3">
+  <div class="social_media">
+    <h2>Social Media</h2>
+  </div>
+</div>
 
 
 
-</style>
-<body>
+
+
+
+
+
+
+
+
+
+
+</div> <!--closes .flex-container -->
+
+<!-- <div class="projects">
+  <h2>Projects</h2> -->
+
+
+
+
 
 
 

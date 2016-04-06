@@ -4,6 +4,8 @@
   Version: 1.0.0
 */
 
+
+
 /* Global */
 
 body {
@@ -47,6 +49,23 @@ hr {
   margin-top: -35px;
 }
 
+.flex-container {
+  width: 100%;
+  display: flex;
+  border: 3px solid black;
+  flex-direction: row;
+}
+
+.flex-item {
+  border: 1px solid red;
+  flex: 2;
+}
+
+.flex-item.item1,
+.flex-item.item3 {
+  flex: 1;
+}
+
 .about_me_logo {
   height: 42px;
   width: 42px;
@@ -84,54 +103,30 @@ hr {
 
 /* About Me */
 .about_me {
-  margin-top: -8px;
   font-weight: bold;
-  color: white;
-  /*font-weight: bold;
-  font-size: 40px;
-  text-align: center;
-  color: #ABDBE5;
-  border: 2px solid black;
-  height: 400px;
-  margin: 5px;*/
 }
 
 .bio {
   text-align: center;
   color: #ABDBE5;
-  width: 831px;
-  margin-left: 293px;
 }
-
-/*.projects {
-  border: 1px solid blue;
-  text-align: center;
-  width: 831px;
-  margin-left: 293px;
-}*/
 
 /* Side Bar */
 .ANSI {
   margin-left: 64px;
   margin-top: 1px;
-  position: relative;
-  top: -320px;
+  /*position: relative;
+  top: -320px;*/
 }
 
 aside {
-  margin-left: 73px;
-  position: relative;
-  top: -330px;
 }
 
 .side_bar {
-  margin-right: 1050px;
   color: #ABDBE5;
   font-variant: small-caps;
   font-weight: bold;
   font-size: 25px;
-  position: relative;
-  top: -340px;
   letter-spacing: 1px;
 }
 
@@ -139,8 +134,8 @@ aside {
   text-align: left;
   font-variant: small-caps;
   font-size: 16px;
-  position: relative;
-  top: -350px;
+  /*position: relative;
+  top: -350px;*/
 }
 
 .my_progress_html {
