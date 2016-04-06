@@ -232,6 +232,10 @@ aside {
   margin: 11px;
 }
 
+.flex-item h4 {
+  text-align: center;
+}
+
 .flex-item.item1,
 .flex-item.item3 {
   flex: 1;
@@ -282,10 +286,15 @@ aside {
 }
 
 .bio {
-  /*text-align: justify;*/
   color: #ABDBE5;
   font-size: 18px;
   text-align: center;
+}
+
+.bio img {
+  border-radius: 10px;
+  height: 140px;
+  margin-left: 14px;
 }
 
 
