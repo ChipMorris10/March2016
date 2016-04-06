@@ -47,21 +47,188 @@ hr {
   margin-top: -35px;
 }
 
+
+/* Side Bar */
+.ANSI {
+  margin-left: 22%;
+  margin-top: 1px;
+  color: #ABDBE5;
+}
+
+aside {
+  margin-left: 21%;
+  color: #ABDBE5;
+  font-size: 25px;
+  font-variant: small-caps;
+}
+
+.skill_set {
+  text-align: left;
+  font-variant: small-caps;
+  font-size: 16px;
+  color: #ABDBE5;
+}
+
+.my_progress_html {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_html {
+  width: 90%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_css {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_css {
+  width: 90%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_SQL {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_SQL {
+  width: 60%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_JScript {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_JScript {
+  width: 50%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Unix {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Unix {
+  width: 70%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Git {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Git {
+  width: 70%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Mongo {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Mongo {
+  width: 50%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Angular {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Angular {
+  width: 60%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Bootstrap {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Bootstrap {
+  width: 70%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Crud {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Crud {
+  width: 50%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Pair {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Pair {
+  width: 60%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+.my_progress_Responsive {
+  width: 40%;
+  height: 10px;
+  background-color: #ddd;
+}
+
+.my_bar_Responsive {
+  width: 80%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
 .flex-container {
   width: 100%;
   display: flex;
-  border: 3px solid black;
+  /*border: 3px solid black;*/
   flex-direction: row;
 }
 
 .flex-item {
-  border: 1px solid red;
+ /* border: 1px solid red;*/
   flex: 2;
 }
 
 .flex-item.item1,
 .flex-item.item3 {
   flex: 1;
+  margin-top: -309px;
 }
 
 .about_me_logo {
@@ -109,199 +276,8 @@ hr {
   color: #ABDBE5;
 }
 
-/* Side Bar */
-.ANSI {
-  margin-left: 64px;
-  margin-top: 1px;
-  /*position: relative;
-  top: -320px;*/
-}
 
-aside {
-}
 
-.side_bar {
-  color: #ABDBE5;
-  font-variant: small-caps;
-  font-weight: bold;
-  font-size: 25px;
-  letter-spacing: 1px;
-}
 
-.skill_set {
-  text-align: left;
-  font-variant: small-caps;
-  font-size: 16px;
-  /*position: relative;
-  top: -350px;*/
-}
-
-.my_progress_html {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_html {
-  position: absolute;
-  width: 90%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_css {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_css {
-  position: absolute;
-  width: 90%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_SQL {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_SQL {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_JScript {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_JScript {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Unix {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Unix {
-  position: absolute;
-  width: 70%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Git {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Git {
-  position: absolute;
-  width: 70%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Mongo {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Mongo {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Angular {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Angular {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Bootstrap {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Bootstrap {
-  position: absolute;
-  width: 70%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Crud {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Crud {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Pair {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Pair {
-  position: absolute;
-  width: 60%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_progress_Responsive {
-  position: relative;
-  width: 40%;
-  height: 10px;
-  background-color: #ddd;
-}
-
-.my_bar_Responsive {
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  background-color: #4CAF50;
-}
 
 
