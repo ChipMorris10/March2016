@@ -1,9 +1,8 @@
-/* Website: March 2016
+/* Website Title: March 2016
   Author: Chip Morris
-  Author Site: Link to my portfolio
+  Author Site: Portfolio using only CSS (no Bootstrap)
   Version: 1.0.0
 */
-
 
 
 /* Global */
@@ -16,8 +15,13 @@ body {
 
 }
 
-hr {
+#line1 {
   width: 500px;
+  margin-top: 1px;
+}
+
+#line2 {
+  width: 480px;
   margin-top: 1px;
 }
 
@@ -221,14 +225,20 @@ aside {
 }
 
 .flex-item {
- /* border: 1px solid red;*/
+  /*border: 1px solid red;*/
   flex: 2;
+  font-size: 14px;
+  text-align: justify;
+  margin: 11px;
 }
 
 .flex-item.item1,
 .flex-item.item3 {
   flex: 1;
   margin-top: -309px;
+  /*color: #ABDBE5;
+  font-size: 25px;
+  font-variant: small-caps;*/
 }
 
 .about_me_logo {
@@ -272,8 +282,10 @@ aside {
 }
 
 .bio {
-  text-align: center;
+  /*text-align: justify;*/
   color: #ABDBE5;
+  font-size: 18px;
+  text-align: center;
 }
 
 
