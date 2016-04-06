@@ -234,7 +234,7 @@ aside {
 
 .flex-item h4  {
   text-align: center;
-  margin-left: -26px;
+  /*margin-left: -26px;*/
 }
 
 .flex-item.item1,
