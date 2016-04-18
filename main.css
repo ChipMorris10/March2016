@@ -86,6 +86,7 @@ aside {
   font-variant: small-caps;
   font-size: 16px;
   color: #ABDBE5;
+  list-style-type: none;
 }
 
 aside {
@@ -153,15 +154,15 @@ aside {
   width: 75%;
 }
 
+
+/* Flex Container & Flex Item */
 .flex-container {
   width: 100%;
   display: flex;
-  /*border: 3px solid black;*/
   flex-direction: row;
 }
 
 .flex-item {
-  /*border: 1px solid red;*/
   flex: 2;
   font-size: 14px;
   text-align: justify;
@@ -170,30 +171,12 @@ aside {
 
 .flex-item h4  {
   text-align: center;
-  /*margin-left: -26px;*/
 }
 
 .flex-item.item1,
 .flex-item.item3 {
   flex: 1;
   margin-top: -309px;
-  /*color: #ABDBE5;
-  font-size: 25px;
-  font-variant: small-caps;*/
-}
-
-
-
-
-/* Headline */
-#link {
-  font-family: 'Josefin Slab', serif;
-  text-align: center;
-}
-
-/* About Me */
-.about_me {
-  font-weight: bold;
 }
 
 .bio {
@@ -206,13 +189,28 @@ aside {
   border-radius: 10px;
   height: 140px;
   margin-left: 19px;
+  padding:1px;
+  border:1px solid #021a40;
 }
 
+.title {
+  text-align: center;
+  font-variant: small-caps;
+}
 .comment {
-  margin-left: 23px;
+  text-align: center;
+  font-variant: small-caps;
 }
 
 
+/* Footer */
+footer, hr {
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  line-height: 10px;
+}
 
 
 
