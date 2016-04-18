@@ -16,12 +16,12 @@ body {
 }
 
 #line1 {
-  width: 500px;
+  width: 565px;
   margin-top: 1px;
 }
 
 #line2 {
-  width: 480px;
+  width: 505px;
   margin-top: 1px;
 }
 
@@ -80,7 +80,7 @@ aside {
 }
 
 .my_bar_html {
-  width: 90%;
+  width: 80%;
   height: 100%;
   background-color: #4CAF50;
 }
@@ -92,7 +92,7 @@ aside {
 }
 
 .my_bar_css {
-  width: 90%;
+  width: 80%;
   height: 100%;
   background-color: #4CAF50;
 }
@@ -176,7 +176,7 @@ aside {
 }
 
 .my_bar_Bootstrap {
-  width: 70%;
+  width: 80%;
   height: 100%;
   background-color: #4CAF50;
 }
@@ -212,7 +212,7 @@ aside {
 }
 
 .my_bar_Responsive {
-  width: 80%;
+  width: 75%;
   height: 100%;
   background-color: #4CAF50;
 }
@@ -295,7 +295,11 @@ aside {
 .bio img {
   border-radius: 10px;
   height: 140px;
-  margin-left: 12px;
+  margin-left: 19px;
+}
+
+.comment {
+  margin-left: 23px;
 }
 
 
