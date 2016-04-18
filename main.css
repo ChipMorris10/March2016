@@ -100,76 +100,57 @@ aside {
   background-color: #ddd;
 }
 
-.my_bar_html {
-  width: 80%;
+.my_bar {
   height: 100%;
   background-color: #4CAF50;
 }
 
-.my_bar_css {
+.html {
   width: 80%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_SQL {
+.css {
+  width: 80%;
+}
+
+.sql {
   width: 60%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_JScript {
+.j_script {
   width: 50%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Unix {
+.unix {
   width: 70%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Git {
+.git {
   width: 70%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Mongo {
+.mongo {
   width: 50%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Angular {
+.angular {
   width: 60%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Bootstrap {
+.bootstrap {
   width: 80%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Crud {
-  width: 50%;
-  height: 100%;
-  background-color: #4CAF50;
-}
-
-.my_bar_Pair {
+.crud {
   width: 60%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
-.my_bar_Responsive {
+.pair {
+  width: 60%;
+}
+
+.responsive {
   width: 75%;
-  height: 100%;
-  background-color: #4CAF50;
 }
 
 .flex-container {
