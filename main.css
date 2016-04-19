@@ -24,7 +24,7 @@ body {
 }
 
 
-/* Introduction - Main Focus */
+/* Header and Navigation Logos */
 .intro, .intro_sub {
   text-align: center;
   font-variant: small-caps;
@@ -38,36 +38,37 @@ body {
   margin-top: -34px;
 }
 
-.warning {
+p.warning {
   text-align: center;
   color: #E51F0F;
   font-weight: bold;
   margin-top: -35px;
+  font-size: 13px;
 }
 
-.eye_logo,
-.lines_logo,
-.wheel_logo,
-.arrow_logo {
+img.eye_logo,
+img.lines_logo,
+img.wheel_logo,
+img.arrow_logo {
   height: 42px;
   width: 42px;
   padding-left: 480px;
   margin-top: 10px;
 }
 
-.lines_logo,
-.wheel_logo,
-.arrow_logo {
+img.lines_logo,
+img.wheel_logo,
+img.arrow_logo {
   height: 40px;
   width: 40px;
   padding-left: 90px;
 }
 
-.wheel_logo {
+img.wheel_logo {
   padding-left: 96px;
 }
 
-.arrow_logo {
+img.arrow_logo {
   padding-left: 111px;
 }
 
@@ -193,6 +194,8 @@ aside {
   border:1px solid #021a40;
 }
 
+
+
 .title {
   text-align: center;
   font-variant: small-caps;
@@ -200,6 +203,18 @@ aside {
 .comment {
   text-align: center;
   font-variant: small-caps;
+}
+
+
+/* Social Media */
+.social_media p {
+  font-size: 13px;
+  color: #ABDBE5;
+}
+
+.social_media img {
+  padding-left: 32px;
+  float:left;
 }
 
 
@@ -211,7 +226,4 @@ footer, hr {
   font-size: 15px;
   line-height: 10px;
 }
-
-
-
 
